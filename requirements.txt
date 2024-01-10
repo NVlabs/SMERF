@@ -1,0 +1,15 @@
+tqdm
+ninja
+jupyter
+openmim
+matplotlib ==3.5.2
+numpy >=1.22.0, <1.24.0
+scikit-learn
+similaritymeasures
+opencv-python ==4.5.5.64
+scipy ==1.8.0
+ortools ==9.2.9972
+iso3166
+chardet
+shapely ==2.0.0
+wandb
