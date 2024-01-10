@@ -5,9 +5,9 @@ This is the official code release for
 
 [**Augmenting Lane Perception and Topology Understanding with Standard Definition Navigation Maps**](https://arxiv.org/abs/2311.04079v1).
 
-by [Katie Z Luo](https://www.cs.cornell.edu/~katieluo/), [Xinshuo Weng](https://www.xinshuoweng.com/), [Yan Wang](https://www.cs.cornell.edu/~yanwang/), [Shuang Wu](https://scholar.google.com/citations?user=LKk1jdMAAAAJ&hl=en), [Jie Li](https://scholar.google.com/citations?user=_I3COxAAAAAJ&hl=en), [Kilian Q. Weinberger](https://www.cs.cornell.edu/~kilian/), [Yue Wang](https://yuewang.xyz/), and [Marco Pavone](https://web.stanford.edu/~pavone/)
+by [Katie Z Luo](https://www.cs.cornell.edu/~katieluo/), [Xinshuo Weng](https://www.xinshuoweng.com/), [Yan Wang](https://scholar.google.ca/citations?user=nZsD8XwAAAAJ&hl=en), [Shuang Wu](https://scholar.google.com/citations?user=LKk1jdMAAAAJ&hl=en), [Jie Li](https://scholar.google.com/citations?user=_I3COxAAAAAJ&hl=en), [Kilian Q. Weinberger](https://www.cs.cornell.edu/~kilian/), [Yue Wang](https://yuewang.xyz/), and [Marco Pavone](https://web.stanford.edu/~pavone/)
 
-[Paper](https://arxiv.org/abs/2311.04079v1) | [Project Page]()
+[Paper](https://arxiv.org/abs/2311.04079v1) | [Project Page](https://katieluo88.github.io/SMERF/)
 
 
 ![Figure](assets/model.png)
@@ -132,7 +132,7 @@ A script for parallelizing the process is provided at `openlanev2/sd_maps/load_s
 
 ### Train
 
-This work was reported on training with 8 GPUs for training. If a different number of GPUs is utilized, you can enhance performance by configuring the `--autoscale-lr` option. 
+This work reported numbers for models trained with 8 GPUs. If a different number of GPUs is utilized, you can enhance performance by configuring the `--autoscale-lr` option. 
 
 ```bash
 cd SMERF/mmdetection3d
