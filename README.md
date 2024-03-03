@@ -145,6 +145,11 @@ For example, to train the OpenLane-V2 baseline model with SMERF map embeddings o
 bash tools/dist_train.sh projects/openlanev2/configs/baseline_large_ptsrep_smerf.py 8
 ```
 
+**Edit:**
+It has been brought to my attention that the baseline model might take too much memory for most machines. One thing I would suggest is to run the Toponet baseline. Their model is more lightweight and (as a plus) yields better results. Run distributed training with:
+```bash
+bash tools/dist_train.sh projects/toponet_openlanev2/configs/toponet_smerf.py 8
+```
 ### Evaluation and Visualization
 You can set `--eval-options visualization=True` to visualize the results.
 
